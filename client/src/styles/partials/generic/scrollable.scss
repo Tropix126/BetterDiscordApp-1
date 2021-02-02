@@ -14,12 +14,12 @@
     &.bd-dark {
         .bd-scroller {
             &::-webkit-scrollbar-thumb {
-                background-color: #36393e;
+                background-color: var(--background-primary);
                 border-color: transparent;
             }
 
             &::-webkit-scrollbar-track-piece {
-                background-color: #2b2e31;
+                background-color: var(--scrollbar-auto-track);
                 border-color: transparent;
             }
         }

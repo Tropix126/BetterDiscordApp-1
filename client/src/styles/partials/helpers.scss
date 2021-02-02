@@ -15,5 +15,6 @@
 
 .bd-hint {
     @extend %bd-p;
-    color: #72767d;
+    color: var(--header-secondary);
+    line-height: normal;
 }

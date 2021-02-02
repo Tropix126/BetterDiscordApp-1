@@ -22,7 +22,7 @@
 
     &::after {
         content: '';
-        background: #202225;
+        background: var(--background-tertiary);
         height: 20px;
         width: 20px;
         position: absolute;

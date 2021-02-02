@@ -1,6 +1,6 @@
 .bd-formHeader {
     margin: 15px 0 10px;
-    color: rgba(255, 255, 255, .15);
+    color: var(--text-muted);
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -24,14 +24,14 @@
             width: 16px;
             height: 16px;
             cursor: pointer;
-            fill: #ccc;
+            fill: var(--text-muted);
         }
     }
 
     &:hover {
         .bd-formHeaderButton {
             svg {
-                fill: #fff;
+                fill: var(--channels-default);
             }
         }
     }
@@ -39,7 +39,7 @@
 
 .bd-formItem {
     h5 {
-        color: #b9bbbe;
+        color: var(--channels-default);
         text-transform: uppercase;
         font-weight: 600;
         font-size: 12px;
@@ -49,11 +49,11 @@
 .bd-formDivider {
     height: 1px;
     margin: 15px 0;
-    background: hsla(218, 5%, 47%, .3);
+    border-bottom: thin solid var(--background-modifier-accent);
     transition: background-color .2s ease;
 
     .bd-formItemChanged > & {
-        background: $colok;
+        border-color: $colok;
     }
 }
 

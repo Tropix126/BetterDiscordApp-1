@@ -11,8 +11,9 @@
 
     .bd-keybindSelected {
         flex: 1 1 auto;
-        color: #f6f6f7;
+        color: var(--header-primary);
         font-size: 14px;
+        line-height: normal;
     }
 
     &.bd-keybindUnset {

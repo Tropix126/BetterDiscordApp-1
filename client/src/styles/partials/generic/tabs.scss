@@ -5,11 +5,11 @@
 
     .bd-button {
         background: transparent;
-        border-bottom: 2px solid rgba(114, 118, 126, .3);
+        border-bottom: 2px solid var(--background-modifier-accent);
         cursor: pointer;
         margin-right: 15px;
         padding: 15px 0;
-        color: #87909c;
+        color: var(--interactive-normal);
         font-size: 14px;
         font-weight: 500;
         transition: color .2s ease, border-bottom-color .2s ease;
@@ -28,10 +28,10 @@
         &.bd-active {
             background: transparent;
             border-bottom-color: $colbdgreen;
-            color: #fff;
+            color: var(--header-primary);
 
             .bd-materialDesignIcon {
-                fill: #fff;
+                fill: var(--header-primary);
             }
         }
 

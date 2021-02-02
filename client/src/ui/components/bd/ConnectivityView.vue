@@ -72,7 +72,7 @@
                     height: 750,
                     x: x < 0 ? 0 : x,
                     y: y < 0 ? 0 : y,
-                    backgroundColor: '#202225',
+                    backgroundColor: 'var(--background-tertiary)',
                     show: true,
                     resizable: false,
                     maximizable: false,

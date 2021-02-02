@@ -56,7 +56,7 @@ module.exports = (Plugin, Api, Vendor, Dependencies) => {
                     display: block;
                     padding: 10px 40px;
                     color: #eee;
-                    background-color: #202225;
+                    background-color: var(--background-tertiary);
                     text-align: center;
                     font-size: 14px;
                 }

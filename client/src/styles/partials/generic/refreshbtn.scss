@@ -141,6 +141,7 @@
 
     .bd-svgCancelLine {
         opacity: .4;
+        stroke: currentColor;
 
         &:nth-of-type(1) {
             transform: scale(1, 0);
@@ -154,6 +155,9 @@
     .bd-svgCircle {
         stroke-dasharray: 36.5, 200;
         stroke-dashoffset: -7.5;
+        .bd-svgCircleRing {
+            stroke: currentColor;
+        }
     }
 
     .bd-svgArrow {
@@ -165,5 +169,6 @@
         transform-origin: 17.1px 6.9px;
         transition: .8s ease .2s;
         transform: scale(1);
+        fill: currentColor;
     }
 }

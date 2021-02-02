@@ -1,15 +1,13 @@
-.bd-cm,
-.da-contextMenu { // sass-lint:disable-line class-name-format
-    background: #18191c;
+.bd-cm { // sass-lint:disable-line class-name-format
+    background: var(--background-floating);
     box-shadow: 0 0 1px rgba(0, 0, 0, .82), 0 1px 4px rgba(0, 0, 0, .1);
     border-radius: 5px;
     position: fixed;
     width: 170px;
-    z-index: 1005;
+    z-index: 3001;
     user-select: none;
 
-    &.bd-cmRenderLeft,
-    &.da-invertChildX { // sass-lint:disable-line class-name-format
+    &.bd-cmRenderLeft { // sass-lint:disable-line class-name-format
         .bd-cm {
             margin-left: -170px;
         }

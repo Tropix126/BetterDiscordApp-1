@@ -16,7 +16,7 @@
         z-index: 9001;
 
         .vc-chrome-body { // sass-lint:disable-line class-name-format
-            background: #36393e;
+            background: var(--background-primary);
 
             .vc-chrome-fields-wrap { // sass-lint:disable-line class-name-format
                 .vc-input__input { // sass-lint:disable-line class-name-format

@@ -37,7 +37,7 @@
     }
 
     .bd-modalInner {
-        background: #36393e;
+        background: var(--background-primary);
         contain: layout;
         flex-direction: column;
         pointer-events: auto;
@@ -54,6 +54,8 @@
     .bd-modalBody {
         padding: 0 15px;
         display: flex;
+        max-height: 100%;
+        min-height: 1px;
 
         .bd-scrollerWrap {
             .bd-scroller {

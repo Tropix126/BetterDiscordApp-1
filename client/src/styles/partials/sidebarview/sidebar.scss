@@ -7,7 +7,7 @@
         padding: 6px 0;
         margin-left: 10px;
         margin-top: 15px;
-        color: rgba(255, 255, 255, .15);
+        color: var(--text-muted);
         font-size: 14px;
         line-height: 16px;
         text-transform: uppercase;
@@ -25,7 +25,7 @@
         padding-bottom: 6px;
         padding-top: 6px;
         padding: 6px 10px;
-        color: $coldimwhite;
+        color: var(--interactive-normal);
         cursor: pointer;
         font-size: 17px;
         line-height: 20px;
@@ -38,8 +38,13 @@
         font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 
         &:hover {
-            background-color: rgba(185, 185, 185, .1);
-            color: #f6f6f6;
+            background-color: var(--background-modifier-hover);
+            color: var(--interactive-hover);
+        }
+
+        &:active {
+            background-color: var(--background-modifier-active);
+            color: var(--interactive-active);
         }
 
         &.bd-active {

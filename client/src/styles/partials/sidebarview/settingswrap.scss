@@ -16,9 +16,11 @@
         display: flex;
         flex-direction: column;
         flex-grow: 1;
+        min-height: 1px;
 
         > .bd-scrollerWrap {
             flex-grow: 1;
+            min-height: 1px;
 
             > .bd-scroller {
                 overflow-y: scroll;
@@ -67,7 +69,7 @@
                 display: flex;
                 align-items: stretch;
                 background: rgba(32, 34, 37, .6);
-                border-color: #202225;
+                border-color: var(--background-tertiary);
                 padding: 20px;
                 border-radius: 5px;
                 border-style: solid;
@@ -113,7 +115,7 @@
         }
 
         .bd-settingswrapSubheader {
-            color: #f6f6f7;
+            color: var(--header-primary);
             text-transform: uppercase;
             margin-bottom: 20px;
             font-weight: 600;
